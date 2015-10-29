@@ -5,30 +5,6 @@
 <fanart>http://www.tv14.my/wp-content/uploads/2015/09/Jwanita9.jpg</fanart>
 </item>
 
-<item>
-<title>Kapsul (2015)</title>
-<link>$doregex[url] app=vod?h=$doregex[h-key] playpath=$doregex[p-key] swfUrl=//c1.popads.net/v.swf pageUrl=http://videorev.cc/embed-w3cmc0w3m9gw.html</link>
-<thumbnail>http://pencurimovie.pw/wp-content/uploads/2015/10/kapsul.jpg</thumbnail>
-<fanart>http://www.cinema.com.my/images/news/2015/7n_kapsulakanubahpersepsifilem00.jpg</fanart>
-<regex>
-<name>url</name>
-<expres>streamer: "([^"]*)</expres>
-<page>http://videorev.cc/embed-w3cmc0w3m9gw.html</page>
-<referer>http://videorev.cc/embed-w3cmc0w3m9gw</referer>
-</regex>
-<regex>
-<name>h-key</name>
-<expres>flv\?h=([^"]*)</expres>
-<page>http://http://videorev.cc/embed-w3cmc0w3m9gw.html</page>
-<referer>http://http://videorev.cc/embed-w3cmc0w3m9gw</referer>
-</regex>
-<regex>
-<name>p-key</name>
-<expres>file: "([^"]*)</expres>
-<page>http://http://videorev.cc/embed-w3cmc0w3m9gw.html</page>
-<referer>http://http://videorev.cc/embed-w3cmc0w3m9gw</referer>
-</regex>
-</item>
 
 <item>
 <title>Usop Wilcha Menghonjang Makhluk Muzium (2015)</title>
